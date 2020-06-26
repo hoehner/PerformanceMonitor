@@ -9,15 +9,16 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Perf Close.vi" Type="VI" URL="../API/Perf Close.vi"/>
-		<Item Name="Perf Read Data.vi" Type="VI" URL="../API/Perf Read Data.vi"/>
-		<Item Name="Perf Initialize.vi" Type="VI" URL="../API/Perf Initialize.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../API/Initialize.vi"/>
+		<Item Name="Read Data.vi" Type="VI" URL="../API/Read Data.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../API/Close.vi"/>
 	</Item>
 	<Item Name="Dependencies" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="tools_system CPU Usage Ref.ctl" Type="VI" URL="../Dependencies/lv_system_tools/lv_system_tools_100/tools_system CPU Usage Ref.ctl"/>
 		<Item Name="Tools_System CPU Usage Close.vi" Type="VI" URL="../Dependencies/lv_system_tools/lv_system_tools_100/Tools_System CPU Usage Close.vi"/>
 		<Item Name="Tools_System CPU Usage Init.vi" Type="VI" URL="../Dependencies/lv_system_tools/lv_system_tools_100/Tools_System CPU Usage Init.vi"/>
-		<Item Name="tools_system CPU Usage Ref.ctl" Type="VI" URL="../Dependencies/lv_system_tools/lv_system_tools_100/tools_system CPU Usage Ref.ctl"/>
 		<Item Name="Tools_System CPU Usage.vi" Type="VI" URL="../Dependencies/lv_system_tools/lv_system_tools_100/Tools_System CPU Usage.vi"/>
 		<Item Name="Tools_System Memory Status.vi" Type="VI" URL="../Dependencies/lv_system_tools/lv_system_tools_100/Tools_System Memory Status.vi"/>
 	</Item>
