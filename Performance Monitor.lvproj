@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -95,7 +95,6 @@
 				<Property Name="TgtF_productName" Type="Str">Performance Monitor Library</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{869290DA-6338-4D69-B98B-FC4244C04F84}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Performance Monitor.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
